@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import app from "./firebaseInit";
+import { loginUser, registerUser } from "./firebaseServices";import React, { useState } from "react";
 import { View, Text, TouchableOpacity, TextInput, ScrollView, StyleSheet } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 
